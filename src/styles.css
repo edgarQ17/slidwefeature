@@ -1,0 +1,111 @@
+.swiper-container{
+  width: 600px;
+  height:550px ;
+}
+.swiper-wrapper{
+  padding-inline-start: 0;
+}
+.rectangle {  
+  position: absolute;
+
+  width: 414px;
+  height: 548px;
+  left: 1px;
+  top: 0px;
+  background: #85D1AC;
+}
+.profile_image{
+  position: absolute;
+  width: 388.87px;
+  height: 299px;
+  left: 13.5px;
+  top: 27px;
+  background: url(images/index.jpeg);
+  background-size: cover;
+  border-radius: 100px;
+}
+.detailcontainer{
+position: absolute;
+width: 414px;
+height: 190px;
+left: 1px;
+top: 358px; 
+background-color: rgba(189, 169, 169, 0.781);
+}
+.name_box{
+  /* position:sticky; */
+  width: 207px;
+  height: 73px;
+  left: 1px;
+  top: 358px;
+  background: #0003cc;
+  }
+.name_word{
+/* position: absolute; */
+width: 160px;
+height: 30px;
+left: 29px;
+top: 386px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.preferences_box{
+  /* position: relative; */
+  width: 207px;
+  height: 73px;
+  left: 207px;
+  top: 358px;
+  background: #85D1AC;
+}
+.preference_word{
+  position: fixed;
+  width: 132px;
+  height: 30px;
+  left: 257px;
+  top: 386px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+}
+.bio_box{
+  position: fixed;
+  width: 414px;
+  height: 117px;
+  left: 0px;
+  top: 431px;
+  background: #85D1AC;
+}
+.bio_words{
+  position: fixed;
+  width: 356px;
+  height: 44px;
+  left: 33px;
+  top: 462px;
+  
+  font-family: Red Hat Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #B9FFDD;
+}
+
+.swiper-button-next {
+  width: 116px;
+  height: 105px;
+ border-radius: 100px;
+left: 400px;
+  background: #45DE37;
+}
